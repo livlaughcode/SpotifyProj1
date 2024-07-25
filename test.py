@@ -1,4 +1,4 @@
-textInput = Input("Would you like to cry?")
+textInput = input("Would you like to cry?")
 if textInput == "yes" or textInput == "Yes":
   print("me too")
 else:
