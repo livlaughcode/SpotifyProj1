@@ -1,6 +1,4 @@
-textInput = input("Would you like to cry?")
-if textInput == "yes" or textInput == "Yes":
-  print("me too")
-else:
-  print("study python harder")
-  
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+
+#py -m pip install spotipy
